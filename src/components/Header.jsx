@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="flex justify-between items-center text-[24px] text-dark">
       <nav>
-        <ul className="flex space-x-[80px] font-medium">
+        <ul className="flex space-x-[40px] md:space-x-[80px] font-medium">
           <li
             onClick={() => navigate("/")}
             className={`cursor-pointer transition-all hover:border-b-8 border-b-blue ${

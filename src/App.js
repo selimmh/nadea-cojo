@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="min-h-screen px-[64px] pt-[43px] pb-[24px] relative">
+    <div className="min-h-screen px-[20px] md:px-[64px] pt-[43px] pb-[24px] relative">
       <Router>
         <Header />
         <Routes>

@@ -36,34 +36,34 @@ const Home = () => {
             Web and Mobile Interfaces, prints and digital art.
           </h2>
           {/* actions */}
-          <div className="space-x-[24px] flex w-fit">
-            <button className="whitespace-nowrap relative transition-all px-[20px] py-[10px] bg-pink border-[3px] text-dark shadow-square hover:shadow-none text-[20px] font-medium">
+          <div className="md:space-x-[24px] flex flex-col justify-center space-y-4 md:space-y-0 md:flex-row w-fit ">
+            <button className="whitespace-nowrap transition-all px-[20px] py-[10px] bg-pink border-[3px] text-dark shadow-square hover:shadow-none text-[20px] font-medium">
               Hire me
             </button>
-            <button className="whitespace-nowrap transition-all px-[20px] py-[10px] border-[3px] text-dark shadow-square hover:shadow-none text-[20px] font-medium">
+            <button className="whitespace-nowrap transition-all w-full px-[20px] py-[10px] border-[3px] text-dark shadow-square hover:shadow-none text-[20px] font-medium">
               See my projects
             </button>
           </div>
 
           {/* socials */}
-          <ul className="flex mt-[216px] space-x-6 sm:absolute static">
+          <ul className="flex mt-[116px] space-x-6 md:absolute">
             <li className="border-[2px] border-dark text-4xl ">
-              <a href="">
+              <a href="https://nowhere.com">
                 <RiLinkedinLine className="text-dark hover:text-white hover:bg-dark transition-all p-[4px]" />
               </a>
             </li>
             <li className="border-[2px] border-dark text-4xl">
-              <a href="">
+              <a href="https://nowhere.com">
                 <RiDribbbleFill className="text-dark hover:text-white hover:bg-dark transition-all p-[4px]" />
               </a>
             </li>
             <li className="border-[2px] border-dark text-4xl">
-              <a href="">
+              <a href="https://nowhere.com">
                 <RiInstagramLine className="text-dark hover:text-white hover:bg-dark transition-all p-[4px]" />
               </a>
             </li>
             <li className="border-[2px] border-dark text-4xl">
-              <a href="">
+              <a href="https://nowhere.com">
                 <RiBehanceLine className="text-dark hover:text-white hover:bg-dark transition-all p-[4px]" />
               </a>
             </li>
