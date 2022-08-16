@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nadea-cojo/static/css/main.504644c3.css",
-    "main.js": "/nadea-cojo/static/js/main.eab4e675.js",
+    "main.js": "/nadea-cojo/static/js/main.a444e754.js",
     "static/media/photo.png": "/nadea-cojo/static/media/photo.1e1e40f25c396fe4f79e.png",
     "index.html": "/nadea-cojo/index.html",
     "main.504644c3.css.map": "/nadea-cojo/static/css/main.504644c3.css.map",
-    "main.eab4e675.js.map": "/nadea-cojo/static/js/main.eab4e675.js.map"
+    "main.a444e754.js.map": "/nadea-cojo/static/js/main.a444e754.js.map"
   },
   "entrypoints": [
     "static/css/main.504644c3.css",
-    "static/js/main.eab4e675.js"
+    "static/js/main.a444e754.js"
   ]
 }
