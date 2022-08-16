@@ -1,16 +1,16 @@
 import React from "react";
 import photo from "../assets/photo.png";
-
 import {
   RiLinkedinLine,
   RiDribbbleFill,
   RiInstagramLine,
   RiBehanceLine,
 } from "react-icons/ri";
-
+import { useNavigate } from "react-router";
 import { motion } from "framer-motion";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <motion.div
       initial="initial"
@@ -37,33 +37,61 @@ const Home = () => {
           </h2>
           {/* actions */}
           <div className="md:space-x-[24px] flex flex-col justify-center space-y-4 md:space-y-0 md:flex-row w-fit ">
-            <button className="whitespace-nowrap transition-all px-[20px] py-[10px] bg-pink border-[3px] text-dark shadow-square hover:shadow-none text-[20px] font-medium">
+            <button
+              onClick={() => {
+                navigate("/contact");
+              }}
+              className="whitespace-nowrap transition-all px-[20px] py-[10px] bg-pink border-[3px] text-dark shadow-square hover:shadow-none text-[20px] font-medium"
+            >
               Hire me
             </button>
             <button className="whitespace-nowrap transition-all w-full px-[20px] py-[10px] border-[3px] text-dark shadow-square hover:shadow-none text-[20px] font-medium">
-              See my projects
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.behance.net/nadiusacojocaru"
+              >
+                See my projects
+              </a>
             </button>
           </div>
 
           {/* socials */}
           <ul className="flex mt-[116px] space-x-6 md:absolute">
             <li className="border-[2px] border-dark text-4xl ">
-              <a href="https://nowhere.com">
+              {/* new tab */}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/nadejda-cojocaru"
+              >
                 <RiLinkedinLine className="text-dark hover:text-white hover:bg-dark transition-all p-[4px]" />
               </a>
             </li>
             <li className="border-[2px] border-dark text-4xl">
-              <a href="https://nowhere.com">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://dribbble.com/NadejdaCojocaru"
+              >
                 <RiDribbbleFill className="text-dark hover:text-white hover:bg-dark transition-all p-[4px]" />
               </a>
             </li>
             <li className="border-[2px] border-dark text-4xl">
-              <a href="https://nowhere.com">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/wrong._.design/"
+              >
                 <RiInstagramLine className="text-dark hover:text-white hover:bg-dark transition-all p-[4px]" />
               </a>
             </li>
             <li className="border-[2px] border-dark text-4xl">
-              <a href="https://nowhere.com">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.behance.net/nadiusacojocaru"
+              >
                 <RiBehanceLine className="text-dark hover:text-white hover:bg-dark transition-all p-[4px]" />
               </a>
             </li>
